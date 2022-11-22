@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e293b;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #f0bb33;
+}
+
+.description {
+  font-family: Bree serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+  .description {
+    font-size: 20px;
+    text-align: center;
+  }
+}
